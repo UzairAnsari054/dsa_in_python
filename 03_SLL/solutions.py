@@ -1,9 +1,9 @@
-class Node():
+class Node:
     def __init__(self, item=None, next=None):
         self.item = item
         self.next = next
 
-class SLL():
+class SLL:
     def __init__(self, start=None):
         self.start = start
 
@@ -84,7 +84,7 @@ class SLL():
 
             
 
-class SllIterator():
+class SllIterator:
     def __init__(self, start):
         self.current = start
     
