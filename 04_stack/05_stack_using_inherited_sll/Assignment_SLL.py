@@ -97,18 +97,3 @@ class SllIterator:
         data = self.current.item
         self.current = self.current.next
         return data
-
-
-        
-myList = SLL()
-myList.insert_at_start(20)
-myList.insert_at_start(10)
-myList.insert_at_last(30)
-myList.insert_after(myList.search(20), 25)
-myList.print_list()
-myList.delete_item(30)
-print()
-myList.print_list()
-print()
-for i in myList:
-    print(i, end='-')
