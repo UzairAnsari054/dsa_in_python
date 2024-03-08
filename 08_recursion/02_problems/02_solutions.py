@@ -1,3 +1,8 @@
+# Rules:
+# 1. Assume that the problem is solved by figuring the way to solve it by passing in small values
+# 2. Make the recursive case (n-1)
+# 3. Make a base case (if n==0 then stop)
+
 def printNSum(n):
       if n == 0:
             return 0

@@ -1,4 +1,3 @@
-
 Assignment-22: Adjacency Matrix implementation of Graph
 
 1. Write a class Graph to implement adjacency matrix representation of a simple and undirected graph.
