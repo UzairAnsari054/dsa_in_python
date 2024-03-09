@@ -1,3 +1,7 @@
+# Bubble sort pushes the greater value to the end
+# 1st loop represents how many rounds will happen i.e, len(list) - 1 or range(1, len(list))
+# 2nd loop represents how many comparisons will happen in each round i.e, len(list) - currentRound. Because each round will give us the greatest value for that round at the end of list & so after each round there will be 1 less comparison needed
+
 def bubble_sorrting(data_list):
     for r in range(1, len(data_list)):
         for i in range(len(data_list)-r):
