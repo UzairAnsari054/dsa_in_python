@@ -26,7 +26,7 @@ class Heap:
             raise EmptyHeapException()
         return self.heap[0]
     
-    def deleteTop(self):
+    def deleteTopElement(self):
         if len(self.heap) == 0:
             raise EmptyHeapException
         if len(self.heap) == 1:
@@ -69,7 +69,7 @@ class Heap:
         list2 = []
         try:
             while True:
-                list2.insert(0, self.deleteTop())
+                list2.insert(0, self.deleteTopElement())
         except EmptyHeapException:
             pass
         return list2
@@ -86,3 +86,4 @@ list1 = [34,56,12,78,43,25,10,80,60]
 h = Heap()
 list2 = h.heap_sort(list1)
 print(list2)
+
