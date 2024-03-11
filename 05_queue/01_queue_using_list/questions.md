@@ -1,3 +1,4 @@
+
 1. Define a class Queue to implement queue data structure using list. Define method to create an empty list object as instance object member of Queue.
 
 2. Define a method is_empty() to check if the queue is empty in Queue class. init__()

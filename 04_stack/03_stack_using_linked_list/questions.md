@@ -1,3 +1,4 @@
+
 1. Define a class Stack to implement stack data structure using singly linked list concept. Define _init__() method to initialise start reference variable and item_count variable to keep track of number of elements in the stack.
 
 2. Define a method is_empty() to check if the stack is empty in Stack class.

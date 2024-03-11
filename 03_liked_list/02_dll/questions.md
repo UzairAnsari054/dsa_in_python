@@ -1,3 +1,4 @@
+
 1. Define a class Node to describe a node of a doubly linked list.
 
 2. Define a class DLL to implement Doubly Linked List with _init__() method to create and initialise start reference variable.

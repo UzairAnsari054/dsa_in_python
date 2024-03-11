@@ -1,3 +1,4 @@
+
 1. Define a class Node to describe node of a circular linked list.
 
 2. Define a class CLL to implement Circular Linked List with _init__() method to create and initialise last reference variable.

@@ -1,3 +1,4 @@
+
 1. Import module containing singly linked list code in your python file.
 
 2. Define a class Stack to implement stack data structure. Define _init__() method to create Singly Linked List (SLL) object.

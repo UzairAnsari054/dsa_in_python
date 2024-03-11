@@ -1,3 +1,4 @@
+
 1. Define a class Stack to implement stack data structure by extending list class.
 
 2. Define a method is_empty() to check if the stack is empty in Stack class.
