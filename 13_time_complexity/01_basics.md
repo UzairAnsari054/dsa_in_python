@@ -28,3 +28,13 @@ it is an exponential function, where the number of steps is 6 raised to the powe
 
 5. (6^2n^2) -> O(36^n^2)
 it is also an exponential function, where the number of steps is 6 raised to the power of 2n^2. Exponential functions are superpolynomial.
+
+6. n/10 -> polynomial, beceause it's a linear function
+
+7. n! -> superpolynomial
+
+8. n^10 -> polynomial, beceause it's an quadratic function
+
+9. 10n^2 -> polynomial, beceause it's an quadratic function
+
+10. 10^n -> superpolynomial, maybe because we don't know the power i.e (n)
