@@ -1,3 +1,6 @@
+import time
+
+
 nums = [1,2,3,4,5,6]
 
 def linear_search_1(nums):
@@ -21,7 +24,12 @@ def linear_search_2(nums):
     return -1
 
 a = linear_search_1(nums)
+
+start_time = time.time()
 b = linear_search_2(nums)
+end_time = time.time()
+print(end_time - start_time)
+
 # print(a)
 # print(b)
 
@@ -37,7 +45,7 @@ def linear_search_4(alphabets):
         print(alphabet)
         
 linear_search_3(alphabets)
-linear_search_4(alphabets)
+
 
 # Findings:
 # for alphabet in range(len(alphabets)):
